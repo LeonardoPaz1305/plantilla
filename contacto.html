@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html class="aui" lang="en">
+    <head>
+        <title>Movistar / Beneficios Prepago </title>
+        <meta charset="utf-8">
+        <meta name="robots" content="noindex,nofollow">
+        <meta name="description" content="{page-description}">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--link(rel='apple-touch-icon' sizes="180x180" href='images/favicon/apple-touch-icon.png')-->
+        <!--link(rel='icon' type='image/png' sizes="32x32" href='images/favicon/favicon-32x32.png')-->
+        <!--link(rel='icon' type='image/png' sizes="16x16" href='images/favicon/favicon-16x16.png')-->
+        <!--link(rel='manifest' href='images/favicon/manifest.json')-->
+        <!--link(rel='mask-icon' href='images/favicon/safari-pinned-tab.svg' color='#4eb500')-->
+        <!--link(rel='shortcut icon' href='images/favicon/favicon.ico')-->
+        <!--meta(name='msapplication-TileColor' content='#4eb500')-->
+        <!--meta(name='msapplication-config' content='images/favicon/browserconfig.xml')-->
+        <!--meta(name='theme-color' content='#0044bd')-->
+        <link rel="stylesheet" href="https://www.movistar.com.pe/canalonline-peru-theme/css/aui.css">
+        <link rel="stylesheet" href="https://www.movistar.com.pe/canalonline-peru-theme/css/main.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body class="movistar--blue">
+        <main>
+            <section class="contact">
+                <div class="container">
+                    <div class="contact__header">
+                        <h2 class="contact__title">¡Compra ya!</h2>
+                        <p class="contact__description">¿Sobre qué producto deseas consultar?</p>
+                    </div>
+                    <div class="contact__content">
+                        <ul class="contact__list">
+                            <li class="contact__item"><a class="contact__btn modal-trigger" data-target="formContact"><img class="icon--image" src="images/svgs/movistar-total-btn.svg" alt="Movistar Total">
+                                    <p class="description">Movistar Total</p></a></li>
+                            <li class="contact__item"><a class="contact__btn modal-trigger" data-target="formContact"><img class="icon--image" src="images/svgs/hogar-btn.svg" alt="Hogar">
+                                    <p class="description">Hogar</p></a></li>
+                            <li class="contact__item"><a class="contact__btn modal-trigger" data-target="movil"><img class="icon--image" src="images/svgs/movil-btn.svg" alt="Movil">
+                                    <p class="description">Móvil</p></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <div class="modal contact__modal" id="movil">
+                <div class="container">
+                    <div class="modal__header"><a class="modal-action modal-close" href="#!"><span class="icon icon-nat_close">
+                                <svg>
+                                    <use xlink:href="images/icons/icons.svg#icon-nat_close"></use>
+                                </svg></span></a>
+                        <div class="icon"><span class="icon-bold_movistar_total">
+                                <svg>
+                                    <use xlink:href="images/icons/icons.svg#icon-bold_movistar_total"></use>
+                                </svg></span></div>
+                        <h2 class="modal__title">Te ayudamos a contratar<strong>Movil</strong></h2>
+                    </div>
+                    <div class="modal__content">
+                        <h3 class="modal__subtitle">Elige una de las opciones</h3>
+                        <ul class="modal__list">
+                            <li class="modal__item">
+                                <button class="modal__btn modal-trigger modal-action modal-close" data-target="formContact">Portabilidad</button>
+                            </li>
+                            <li class="modal__item">
+                                <button class="modal__btn modal-trigger modal-action modal-close" data-target="formContact">Renovación</button>
+                            </li>
+                            <li class="modal__item">
+                                <button class="modal__btn modal-trigger modal-action modal-close" data-target="formContact">Línea Nueva</button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="modal__footer">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col s2">
+                                    <div class="icon"><span class="icon-call_center">
+                                            <svg>
+                                                <use xlink:href="images/icons/icons.svg#icon-call_center"></use>
+                                            </svg></span></div>
+                                </div>
+                                <div class="col s10">
+                                    <p class="description">También puedes solicitar llamando gratis <a class="link" href="tel:080011800">0800 11 800</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal contact__modal" id="formContact">
+                <div class="container">
+                    <div class="modal__header"><a class="modal-trigger modal-action modal-close" href="#movil" data="return"><span class="icon icon-return">
+                                <svg>
+                                    <use xlink:href="images/icons/icons.svg#icon-return"></use>
+                                </svg></span></a><a class="modal-action modal-close" href="#!"><span class="icon icon-nat_close">
+                                <svg>
+                                    <use xlink:href="images/icons/icons.svg#icon-nat_close"></use>
+                                </svg></span></a>
+                        <div class="icon"><span class="icon-bold_movistar_total">
+                                <svg>
+                                    <use xlink:href="images/icons/icons.svg#icon-bold_movistar_total"></use>
+                                </svg></span></div>
+                        <h2 class="modal__title">Te ayudamos a contratar<strong>Movistar Total</strong></h2>
+                    </div>
+                    <div class="modal__content">
+                        <form class="form" action="">
+                            <fieldset class="form__content">
+                                <legend class="form__title">Ingresa tus datos y te llamaremos</legend>
+                                <div class="field__group">
+                                    <label class="field__label" for="document">Ingresa tu DNI</label>
+                                    <input class="field__input" type="text" placeholder="Ingresa tu DNI" maxlength="8" id="document"><span class="icon icon-user">
+                                        <svg>
+                                            <use xlink:href="images/icons/icons.svg#icon-user"></use>
+                                        </svg></span>
+                                </div>
+                                <div class="field__group">
+                                    <label class="field__label" for="phone">Celular del titular</label>
+                                    <input class="field__input" type="text" placeholder="Celular del titular" id="phone" maxlength="9"><span class="icon icon-telephone">
+                                        <svg>
+                                            <use xlink:href="images/icons/icons.svg#icon-telephone"></use>
+                                        </svg></span>
+                                </div>
+                                <div class="field__group">
+                                    <select class="field__select" id="hour">
+                                        <option value="0" disabled selected>Selecciona un horario</option>
+                                        <option value="1">De 8: 00 a.m. a 10:00 a.m.</option>
+                                        <option value="2">De 10: 00 a.m. a 12:00 a.m.</option>
+                                        <option value="3">De 12: 00 p.m. a 2:00 a.m.</option>
+                                        <option value="4">De 2: 00 p.m. a 10:00 a.m.</option>
+                                    </select><span class="icon icon-clock">
+                                        <svg>
+                                            <use xlink:href="images/icons/icons.svg#icon-clock"></use>
+                                        </svg></span><span class="icon--secondary icon-drop_down">
+                                        <svg>
+                                            <use xlink:href="images/icons/icons.svg#icon-drop_down"></use>
+                                        </svg></span>
+                                </div>
+                                <div class="field__group">
+                                    <input class="field__checkbox" type="checkbox" id="treatment" value="1">
+                                    <label class="label__checkbox" for="treatment">Autorizo el <a class="modal-trigger modal-action modal-close" href="#protectClause">tratamiento de mis datos</a></label>
+                                </div>
+                                <button class="field__btn" id="btnSignUp" disabled>Te llamamos</button>
+                                <div class="field__preload"><img src="../images/preload/preloading.gif" alt="pre carga"></div>
+                            </fieldset>
+                        </form>
+                    </div>
+                    <div class="modal__footer">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col s2">
+                                    <div class="icon"><span class="icon-call_center">
+                                            <svg>
+                                                <use xlink:href="images/icons/icons.svg#icon-call_center"></use>
+                                            </svg></span></div>
+                                </div>
+                                <div class="col s10">
+                                    <p class="description">También puedes solicitar llamando gratis <a class="link" href="tel:080011800">0800 11 800</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal contact__modal" id="protectClause">
+                <div class="container">
+                    <div class="modal__header"><a class="modal-trigger modal-action modal-close" href="#formContact" data="return"><span class="icon icon-return">
+                                <svg>
+                                    <use xlink:href="images/icons/icons.svg#icon-return"></use>
+                                </svg></span></a>
+                        <div class="icon"><span class="icon-bold_movistar_total">
+                                <svg>
+                                    <use xlink:href="images/icons/icons.svg#icon-bold_movistar_total"></use>
+                                </svg></span></div>
+                        <p class="modal__subtitle"><b>Cláusula de Protección de datos Personales Usuarios Web</b></p>
+                    </div>
+                    <div class="modal__content">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <p class="modal__description">Autoriza a TELEFÓNICA DEL PERU S.A.A., con domicilio en Avenida Arequipa N° 1155, Santa Beatriz, Cercado de Lima, provincia y departamento de Lima (en adelante TDP), a utilizar los datos personales que ha registrado, con la finalidad de recibir información sobre los productos y/o servicios que ha solicitado mediante este formulario. Cabe indicar que sus datos personales serán registrados en el Banco de Datos de titularidad de TDP denominado CLIENTES. Finalmente, se informa que usted podrá ejercer su derecho de revocatoria y/o cualquier otro derecho previsto en la ley, tales como derechos de acceso, rectificación, cancelación y oposición (ARCO), presentando una solicitud escrita en cualquier Centro de Atención al Cliente o mediante el siguiente correo electrónico: protecciondedatos@movistar.com.pe. <br> Para más información, revise nuestra <br><a class="link" href="/privacidad-y-proteccion-datos" target="_blank">Política de Privacidad.</a></p>
+                                </div>
+                            </div>
+                            <div class="swiper-scrollbar"></div>
+                        </div>
+                        <div class="container">
+                            <button class="modal__btn modal-trigger modal-action modal-close" data-target="formContact" id="termsCondition">Acepto</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal contact__modal" id="error">
+                <div class="modal__header">
+                    <div class="modal__imagen"><img src="../images/png/error.png" alt="Error"></div>
+                </div>
+                <div class="modal__content">
+                    <h2 class="modal__title">¡Ups! Algo salió mal</h2>
+                    <p class="modal__description">En este momento no podemos realizar tu solicitud, por favor inténtalo más tarde.</p>
+                    <div class="container">
+                        <button class="modal__btn modal-close">Entendido</button>
+                    </div>
+                </div>
+            </div>
+            <div class="modal contact__modal" id="error-2">
+                <div class="modal__header">
+                    <div class="modal__imagen"><img src="../images/png/success.png" alt="Error"></div>
+                </div>
+                <div class="modal__content">
+                    <h2 class="modal__title">Recuerda</h2>
+                    <p class="modal__description">Tus datos ya han sido registrados. Nos pondremos en contacto contigo.</p>
+                    <div class="container">
+                        <button class="modal__btn modal-close">Entendido</button>
+                    </div>
+                </div>
+            </div>
+            <div class="modal contact__modal" id="success">
+                <div class="modal__header">
+                    <div class="modal__imagen"><img src="../images/png/success.png" alt="Gracias"></div>
+                </div>
+                <div class="modal__content">
+                    <h2 class="modal__title">¡Gracias!</h2>
+                    <p class="modal__description">Te estaremos llamando dentro de las próximas 24 horas.</p>
+                    <div class="container">
+                        <button class="modal__btn modal-close">Entendido</button>
+                    </div>
+                </div>
+            </div>
+            <div class="modal contact__modal" id="success-2">
+                <div class="modal__header">
+                    <div class="modal__imagen"><img src="../images/png/success.png" alt="Gracias"></div>
+                </div>
+                <div class="modal__content">
+                    <h2 class="modal__title">¡Gracias!</h2>
+                    <p class="modal__description">¡En breve nos pondremos en contacto <br> contigo! Te llamaremos en este horario <br><span class="description--hour">8.00  a.m. a 10.00 p.m.</span></p>
+                    <div class="container">
+                        <button class="modal__btn modal-close">Entendido</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+        <script src="https://www.movistar.com.pe/canalonline-peru-theme/js/min/footer.js"></script>
+        <script src="js/swiper.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
